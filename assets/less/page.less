@@ -176,6 +176,7 @@ body {
 .hentry {
 	.clearfix();
 	border-bottom: 1px solid lighten(@black,80);
+	border-top: 1px solid lighten(@black,80);
 	border-bottom: 1px solid fade(@black,10);
 }
 .entry-feature-image {
@@ -212,7 +213,6 @@ span + .entry-title {
 }
 .entry-title {
 	font-family: @alt-font;
-	font-style: italic;
 	.font-rem(36);
 	font-weight: 700;
 	line-height: 1;
@@ -223,11 +223,11 @@ span + .entry-title {
 	}
 	@media @medium {
 		max-width: 600px;
-		.font-rem(52);
+		.font-rem(22);
 	}
 	@media @large {
 		max-width: 800px;
-		.font-rem(68);
+		.font-rem(38);
 	}
 }
 .entry-wrapper {
